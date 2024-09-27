@@ -5,13 +5,6 @@
     font-family: Arial, sans-serif;
 }
 
-body {
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
 
 .container {
     display: flex;
@@ -177,7 +170,7 @@ input[type="password"], input[type="text"] {
 
 input[type="password"], input[type="text"] {
     width: 100%;
-    padding-right: 40px; /* Đảm bảo đủ không gian cho biểu tượng con mắt */
+padding-right: 40px; /* Đảm bảo đủ không gian cho biểu tượng con mắt */
 }
 
 .toggle-password:hover {
