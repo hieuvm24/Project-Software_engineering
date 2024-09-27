@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-left {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.title-signup {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sub-title-signup {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-login .btn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-login .btn:hover {
+    background-color: #ddd;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.separator .line {
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.separator .or-txt {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Hiệu ứng khi rê chuột qua biểu tượng hiển thị mật khẩu */
+.toggle-password:hover {
+    color: #007bff;
+}
+
+.image-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+
+.image-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Style cho checkbox điều khoản */
+.input-group label {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+}
+
+.input-group label a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.input-group label a:hover {
+    text-decoration: underline;
+}
+
+/* Đảm bảo checkbox được căn chỉnh đẹp mắt với nhãn */
+.input-group input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    vertical-align: middle;
+    margin-right: 5px;
+}
