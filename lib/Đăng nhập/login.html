@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <!-- Form bên trái -->
+            <div class="form-left">
+                <form id="sso-form" class="signupforms" method="post" action="index.php" enctype="multipart/form-data" accept-charset="utf-8" novalidate>
+                    <div class="title-signup">Đăng nhập vào tài khoản của bạn</div>
+                    <div class="sub-title-signup">
+                        Học tập và giao lưu với hàng triệu học viên trên mọi miền đất nước.
+                    </div>
+
+                 
+
+                    <!-- Username field -->
+                    <div class="input-group">
+                        <input type="text" id="username" name="username" placeholder="Tên TK/Email" required>
+                    </div>
+
+                    <!-- Password field with show/hide toggle -->
+                    <div class="input-group password-container">
+                        <input type="password" id="password" name="password" placeholder="Mật khẩu" required>
+                        <span id="togglePassword" class="toggle-password">👁️</span>
+                    </div>
+
+                    <!-- Submit button -->
+                    <div class="input-group">
+                        <input class="submit-btn" type="submit" value="Đăng nhập">
+                    </div>
+                    <div class="input-group">
+                        <input type="checkbox" id="rememberMe" name="rememberMe">
+                        <label for="rememberMe">Ghi nhớ mật khẩu</label>
+                    </div>
+                    
+                    <!-- Forgot password -->
+                    <div class="forgot-password">
+                        <a href="#">Quên mật khẩu?</a>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Hình ảnh bên phải -->
+            <div class="image-right">
+                <img src="thieu nhi.jpg" alt="Hình minh họa thieu nhi">
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
