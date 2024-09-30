@@ -11,6 +11,9 @@ session_start();
     <title>Đăng nhập</title>
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="../Home/trangchu.css">
+    <script src="../header-footer/head_foot.js"></script>
+    
+
 </head>
 
 <body>
@@ -129,6 +132,7 @@ session_start();
     </footer>
 
     <script src="login.js"></script>
+    <footer id="Footer"></footer>
 </body>
 
 </html>
