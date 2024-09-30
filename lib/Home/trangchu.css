@@ -65,22 +65,40 @@ main {
     color: #e6331a; /* Màu đỏ của chữ "THI tốt" */
     font-weight: bold;
 }
-  .nav {
-    display: flex;
-    gap: 2rem;
-    padding-right: 2rem;
-  }
+ /* Tổng quan về thanh nav */
+.nav {
+  display: flex;
+  justify-content: center; /* Căn giữa các mục trong thanh nav */
+  gap: 20px; /* Khoảng cách giữa các mục */
+  margin: 20px 0; /* Khoảng cách trên dưới của thanh nav */
+}
+
+/* Cấu hình chung cho các mục con trong nav */
+.nav-item {
+  border: 2px solid #d1d1d1; /* Viền xám nhạt */
+  background-color: #f5f5f5; /* Nền xám nhẹ */
+  border-radius: 8px; /* Bo tròn góc */
+  padding: 10px 15px; /* Khoảng cách bên trong */
+  transition: 0.3s ease; /* Hiệu ứng khi thay đổi */
+}
+
+.nav-item a {
+  text-decoration: none; /* Bỏ gạch chân liên kết */
+  color: #333; /* Màu chữ */
+  font-weight: bold; /* Chữ đậm */
+  font-family: 'Arial', sans-serif; /* Phông chữ */
+}
+
+.nav-item:hover {
+  background-color: #ffcc00; /* Nền chuyển sang màu vàng khi hover */
+  border-color: #ffcc00; /* Viền màu vàng khi hover */
+}
+
+.nav-item a:hover {
+  color: #fff; /* Chữ chuyển sang màu trắng khi hover */
+}
+
   
-  
-  .nav a {
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-  }
-  
-  .nav a:hover {
-    color: #008080;
-  }
   .search-container {
     display: flex;
     align-items: center;
