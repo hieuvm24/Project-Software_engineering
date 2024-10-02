@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: May 11, 2023 at 07:19 AM
--- Server version: 10.4.27-MariaDB
--- PHP Version: 8.0.25
+-- Máy chủ: 127.0.0.1
+-- Thời gian đã tạo: Th10 02, 2024 lúc 03:08 PM
+-- Phiên bản máy phục vụ: 10.4.32-MariaDB
+-- Phiên bản PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `tracnghiemonline`
+-- Cơ sở dữ liệu: `tracnghiemonline`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `cauhoi`
+-- Cấu trúc bảng cho bảng `cauhoi`
 --
 
 CREATE TABLE `cauhoi` (
@@ -38,34 +38,34 @@ CREATE TABLE `cauhoi` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `cauhoi`
+-- Đang đổ dữ liệu cho bảng `cauhoi`
 --
 
 INSERT INTO `cauhoi` (`macauhoi`, `noidung`, `dokho`, `mamonhoc`, `machuong`, `nguoitao`, `trangthai`) VALUES
-(1, 'OOP là viết tắt của:', 1, 841059, 7, '3121410422', 1),
-(2, 'Đặc điểm cơ bản của lập trình hướng đối tượng thể hiện ở:', 2, 841059, 7, '3121410422', 1),
-(3, 'Lập trình hướng đối tượng là:', 3, 841059, 7, '3121410422', 1),
-(4, 'Thế nào được gọi là hiện tượng nạp chồng ?', 1, 841059, 7, '3121410422', 1),
-(5, 'Trong java, khi khai báo một thuộc tính hoặc một hàm của một lớp mà không có từ khóa quyền truy cập thì mặc định quyền truy cập là gì?', 2, 841059, 7, '3121410422', 1),
-(6, 'Đối với quyền truy cập nào thì cho phép truy cập các lớp con trong cùng gói với lớp cha ?', 3, 841059, 7, '3121410422', 1),
-(7, 'Khi xây dựng phương thức khởi tạo (constructor), việc thường làm là :', 1, 841059, 7, '3121410422', 1),
-(8, 'Phương thức khởi tạo (constructor) là phương thức được thực thi :', 2, 841059, 7, '3121410422', 1),
-(9, 'Tên của phương thức khởi tạo:', 3, 841059, 7, '3121410422', 1),
-(10, 'Đối tượng sống kể từ khi:', 1, 841059, 7, '3121410422', 1),
-(11, 'Chọn câu đúng nhất đối với hướng dẫn tạo lớp:', 2, 841059, 7, '3121410422', 1),
-(12, 'Từ khóa static có thể đứng trước:', 3, 841059, 7, '3121410422', 1),
-(13, 'Cho biết kết quả câu lệnh sau: System.out.println(Math.round(Math.random()*1000000)%100);', 1, 841059, 7, '3121410422', 1),
-(14, 'Khi định nghĩa lớp con, từ khóa extends trong Java:', 2, 841059, 7, '3121410422', 1),
-(15, 'Khi định nghĩa một lớp con:', 3, 841059, 7, '3121410422', 1),
-(16, 'Từ khóa this trong Java là:', 1, 841059, 7, '3121410422', 1),
-(17, 'Nếu modifier của lớp là public thì tên file .java:', 2, 841059, 7, '3121410422', 1),
-(18, 'Biến đối tượng trong Java là:', 3, 841059, 7, '3121410422', 1),
-(19, 'Khi một thành phần của class được khai báo modifier là friendly thì thành phần đó:', 1, 841059, 7, '3121410422', 1),
-(20, 'Ưu điểm của OOP:', 2, 841059, 7, '3121410422', 1),
-(21, 'Ưu điểm của OOP:', 3, 841059, 7, '3121410422', 1),
-(22, 'Ưu điểm của class file trong Java là:', 1, 841059, 7, '3121410422', 1),
-(23, 'Source code của java có tên mở rộng là:', 2, 841059, 7, '3121410422', 1),
-(24, 'JDK bao gồm các thành phần chính:', 3, 841059, 7, '3121410422', 1),
+(1, 'Kết quả của 3 + 5 là:', 1, 841021, 7, '22010106', 1),
+(2, 'Số cần điền vào: ….. – 2 = 3 là:', 1, 841021, 7, '22010106', 1),
+(3, 'Dấu cần điền vào 4 ….2 = 6 là:', 1, 841021, 7, '22010106', 1),
+(4, 'Kết quả của phép tính: 8 – 7 + 4 là:', 1, 841021, 7, '3121410422', 1),
+(5, 'Số lớn nhất trong các số: 1 , 9 , 4 , 7 là:', 1, 841021, 7, '3121410422', 1),
+(6, 'Kết quả của phép tính: 8 – 3 + 4 = …..?', 1, 841021, 7, '3121410422', 1),
+(7, 'Dấu cần điền ở chỗ chấm của: 8 – 5 ….. 9 – 5 là:', 2, 841021, 7, '3121410422', 1),
+(8, 'Xếp các số: 9 , 2 , 5 , 7 theo thứ tự từ lớn đến bé?', 2, 841021, 7, '3121410422', 1),
+(9, 'Số ba viết là:', 2, 841021, 7, '3121410422', 1),
+(10, ' Phép tính có kết quả bằng 10 là', 2, 841021, 7, '3121410422', 1),
+(11, 'Có: 7 lá cờ\r\nBớt đi: 2 lá cờ\r\nCòn lại: …. lá cờ?\r\nPhép tính đúng là:\r\n', 3, 841021, 7, '3121410422', 1),
+(12, 'Tổ 1 có : 6 bạn\r\nTổ 2 có : 4 bạn\r\nCả 2 tổ có : …. bạn?\r\nPhép tính đúng là:', 3, 841021, 7, '3121410422', 1),
+(13, 'Cho biết kết quả câu lệnh sau: System.out.println(Math.round(Math.random()*1000000)%100);', 1, 841048, 18, '3121410422', 1),
+(14, 'Khi định nghĩa lớp con, từ khóa extends trong Java:', 1, 841048, 18, '3121410422', 1),
+(15, 'Khi định nghĩa một lớp con:', 1, 841048, 18, '3121410422', 1),
+(16, 'Từ khóa this trong Java là:', 1, 841048, 18, '22010106', 1),
+(17, 'Nếu modifier của lớp là public thì tên file .java:', 1, 841048, 18, '22020106', 1),
+(18, 'Biến đối tượng trong Java là:', 3, 841021, 7, '3121410422', 0),
+(19, 'Khi một thành phần của class được khai báo modifier là friendly thì thành phần đó:', 1, 841059, 7, '3121410422', 0),
+(20, 'Ưu điểm của OOP:', 2, 841059, 7, '3121410422', 0),
+(21, 'Ưu điểm của OOP:', 3, 841059, 7, '3121410422', 0),
+(22, 'Ưu điểm của class file trong Java là:', 1, 841059, 7, '3121410422', 0),
+(23, 'Source code của java có tên mở rộng là:', 2, 841059, 7, '3121410422', 0),
+(24, 'JDK bao gồm các thành phần chính:', 3, 841059, 20, '3121410422', 1),
 (25, 'Lớp Student có các thuộc tính: name, age và các phương thức: getName(), getAge(). Giả sử x là một đối tượng thuộc lớp Student. Chọn phát biểu đúng trong OOP:', 1, 841059, 7, '3121410422', 1),
 (26, 'Bao đóng là một đặt tính của OOP nhằm để:', 2, 841059, 7, '3121410422', 1),
 (27, 'Các từ khóa cho cấu trúc rẽ nhánh của Java gồm:', 3, 841059, 7, '3121410422', 1),
@@ -77,7 +77,7 @@ INSERT INTO `cauhoi` (`macauhoi`, `noidung`, `dokho`, `mamonhoc`, `machuong`, `n
 (33, 'Từ khoá nào được sử dụng để khai báo một biến trong Java?', 3, 841059, 7, '3121410422', 1),
 (34, 'Từ khoá nào được sử dụng để khai báo một phương thức làm việc với đối tượng của lớp?', 1, 841059, 7, '3121410422', 1),
 (35, 'Từ khoá nào được sử dụng để khai báo một phương thức được ghi đè trong Java?', 2, 841059, 7, '3121410422', 1),
-(36, 'Từ khoá nào được sử dụng để khai báo một phương thức được gọi tự động khi một đối tượng được tạo ra?', 3, 841059, 7, '3121410422', 1),
+(36, 'Từ khoá nào được sử dụng để khai báo một phương thức được gọi tự động khi một đối tượng được tạo ra?', 3, 841059, 7, '', 1),
 (37, 'Từ khoá nào được sử dụng để khai báo một phương thức hoạt động như một lớp trừu tượng?', 1, 841059, 7, '3121410422', 1),
 (38, 'Từ khoá nào được sử dụng để khai báo một lớp trừu tượng trong Java?', 2, 841059, 7, '3121410422', 1),
 (39, 'Trong Java, lớp con là gì?', 3, 841059, 7, '3121410422', 1),
@@ -454,9 +454,9 @@ INSERT INTO `cauhoi` (`macauhoi`, `noidung`, `dokho`, `mamonhoc`, `machuong`, `n
 (411, 'Trong PHP, hàm nào được sử dụng để lấy kích thước của một thư mục?', 2, 841464, 33, '3121410422', 1),
 (412, 'Trong PHP, hàm nào được sử dụng để lấy danh sách tất cả các tập tin trong một thư mục và trả về dưới dạng một mảng?', 3, 841464, 33, '3121410422', 1),
 (413, 'Trong PHP, hàm nào được sử dụng để đọc nội dung của một file CSV và trả về dưới dạng một mảng hai chiều?', 1, 841464, 33, '3121410422', 1),
-(414, 'Trong PHP, hàm nào được sử dụng để ghi nội dung vào một file CSV từ một mảng hai chiều?', 2, 841464, 33, '3121410422', 1);
+(414, 'Trong PHP, hàm nào được sử dụng để ghi nội dung vào một file CSV từ một mảng hai chiều?', 2, 841464, 33, '3121410422', 1),
+(415, 'Trong PHP, hàm nào được sử dụng để kiểm tra xem một file có phải là một file PDF hay không?', 3, 841464, 33, '3121410422', 1);
 INSERT INTO `cauhoi` (`macauhoi`, `noidung`, `dokho`, `mamonhoc`, `machuong`, `nguoitao`, `trangthai`) VALUES
-(415, 'Trong PHP, hàm nào được sử dụng để kiểm tra xem một file có phải là một file PDF hay không?', 3, 841464, 33, '3121410422', 1),
 (416, 'Trong PHP, hàm nào được sử dụng để kiểm tra xem một file có phải là một file ZIP hay không?', 1, 841464, 33, '3121410422', 1),
 (417, 'Trong PHP, hàm nào được sử dụng để nén một thư mục thành một file ZIP?', 2, 841464, 33, '3121410422', 1),
 (418, 'Trong PHP, hàm nào được sử dụng để giải nén một file ZIP vào một thư mục?', 3, 841464, 33, '3121410422', 1),
@@ -583,7 +583,7 @@ INSERT INTO `cauhoi` (`macauhoi`, `noidung`, `dokho`, `mamonhoc`, `machuong`, `n
 -- --------------------------------------------------------
 
 --
--- Table structure for table `cautraloi`
+-- Cấu trúc bảng cho bảng `cautraloi`
 --
 
 CREATE TABLE `cautraloi` (
@@ -594,7 +594,7 @@ CREATE TABLE `cautraloi` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `cautraloi`
+-- Đang đổ dữ liệu cho bảng `cautraloi`
 --
 
 INSERT INTO `cautraloi` (`macautl`, `macauhoi`, `noidungtl`, `ladapan`) VALUES
@@ -2745,7 +2745,7 @@ INSERT INTO `cautraloi` (`macautl`, `macauhoi`, `noidungtl`, `ladapan`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `chitietdethi`
+-- Cấu trúc bảng cho bảng `chitietdethi`
 --
 
 CREATE TABLE `chitietdethi` (
@@ -2755,7 +2755,7 @@ CREATE TABLE `chitietdethi` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `chitietdethi`
+-- Đang đổ dữ liệu cho bảng `chitietdethi`
 --
 
 INSERT INTO `chitietdethi` (`made`, `macauhoi`, `thutu`) VALUES
@@ -2824,7 +2824,7 @@ INSERT INTO `chitietdethi` (`made`, `macauhoi`, `thutu`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `chitietketqua`
+-- Cấu trúc bảng cho bảng `chitietketqua`
 --
 
 CREATE TABLE `chitietketqua` (
@@ -2834,7 +2834,7 @@ CREATE TABLE `chitietketqua` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `chitietketqua`
+-- Đang đổ dữ liệu cho bảng `chitietketqua`
 --
 
 INSERT INTO `chitietketqua` (`makq`, `macauhoi`, `dapanchon`) VALUES
@@ -5882,7 +5882,7 @@ INSERT INTO `chitietketqua` (`makq`, `macauhoi`, `dapanchon`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `chitietnhom`
+-- Cấu trúc bảng cho bảng `chitietnhom`
 --
 
 CREATE TABLE `chitietnhom` (
@@ -5892,7 +5892,7 @@ CREATE TABLE `chitietnhom` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `chitietnhom`
+-- Đang đổ dữ liệu cho bảng `chitietnhom`
 --
 
 INSERT INTO `chitietnhom` (`manhom`, `manguoidung`, `hienthi`) VALUES
@@ -5961,7 +5961,7 @@ INSERT INTO `chitietnhom` (`manhom`, `manguoidung`, `hienthi`) VALUES
 (11, '3121560080', 1);
 
 --
--- Triggers `chitietnhom`
+-- Bẫy `chitietnhom`
 --
 DELIMITER $$
 CREATE TRIGGER `update_group_participants_after_delete` AFTER DELETE ON `chitietnhom` FOR EACH ROW UPDATE nhom
@@ -5981,7 +5981,7 @@ DELIMITER ;
 -- --------------------------------------------------------
 
 --
--- Table structure for table `chitietquyen`
+-- Cấu trúc bảng cho bảng `chitietquyen`
 --
 
 CREATE TABLE `chitietquyen` (
@@ -5991,7 +5991,7 @@ CREATE TABLE `chitietquyen` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `chitietquyen`
+-- Đang đổ dữ liệu cho bảng `chitietquyen`
 --
 
 INSERT INTO `chitietquyen` (`manhomquyen`, `chucnang`, `hanhdong`) VALUES
@@ -6056,7 +6056,7 @@ INSERT INTO `chitietquyen` (`manhomquyen`, `chucnang`, `hanhdong`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `chitietthongbao`
+-- Cấu trúc bảng cho bảng `chitietthongbao`
 --
 
 CREATE TABLE `chitietthongbao` (
@@ -6065,7 +6065,7 @@ CREATE TABLE `chitietthongbao` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `chitietthongbao`
+-- Đang đổ dữ liệu cho bảng `chitietthongbao`
 --
 
 INSERT INTO `chitietthongbao` (`matb`, `manhom`) VALUES
@@ -6079,7 +6079,7 @@ INSERT INTO `chitietthongbao` (`matb`, `manhom`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `chuong`
+-- Cấu trúc bảng cho bảng `chuong`
 --
 
 CREATE TABLE `chuong` (
@@ -6090,35 +6090,33 @@ CREATE TABLE `chuong` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `chuong`
+-- Đang đổ dữ liệu cho bảng `chuong`
 --
 
 INSERT INTO `chuong` (`machuong`, `tenchuong`, `mamonhoc`, `trangthai`) VALUES
-(5, 'Chương 2: Lệnh và tiện ích trên linux', 841058, 1),
-(6, 'Chương 3: Quản trị người dùng và nhóm người dùng', 841058, 1),
-(7, 'Chương 1: Ngôn ngữ lập trình Java', 841059, 1),
-(18, 'Chương 1: Hệ thống thông tin là gì', 841048, 1),
-(19, 'Chương 2: ok', 841048, 1),
-(20, 'Chương 1: Lập trình Java cơ bản', 841107, 1),
-(21, 'Chương 2: Lập trình hướng đối tượng trong Java', 841107, 1),
-(22, 'Chương 3: Gói Swing và AWT', 841107, 1),
-(23, 'Chương 2: Các tính chất của Lập trình hướng đối tượng', 841059, 1),
-(24, 'after trangthai', 841021, 0),
-(25, 'Chương 1: Cơ bản về PHP', 841464, 1),
-(26, 'Chương 2: Biến và kiểu dữ liệu', 841464, 1),
-(27, 'Chương 3: Câu lệnh điều khiển', 841464, 1),
-(28, 'Chương 4: Vòng lặp', 841464, 1),
-(29, 'Chương 5: Mảng', 841464, 1),
-(30, 'Chương 6: Hàm', 841464, 1),
-(31, 'Chương 7: Xử lý chuỗi', 841464, 1),
-(32, 'Chương 8: Xử lý ngày tháng', 841464, 1),
-(33, 'Chương 9: Xử lý file', 841464, 1),
-(34, 'Chương 10: Lập trình hướng đối tượng (OOP)', 841464, 1);
+(7, 'Chương 1 Lớp 1', 841021, 1),
+(18, 'Chương 1 Lớp 2', 841048, 1),
+(19, 'Chương 1 lớp 3', 841058, 1),
+(20, 'Chương 1 lớp 4', 841059, 1),
+(21, 'Chương 1 lớp 5', 841107, 1),
+(22, 'Chương 1', 841107, 0),
+(23, 'Chương 1', 841059, 0),
+(24, 'Chương 1', 841021, 0),
+(25, 'Chương 1', 841464, 0),
+(26, 'Ôn Chuyển Cấp', 841464, 1),
+(27, 'Chương 1', 841464, 0),
+(28, 'Chương 1', 841464, 0),
+(29, 'Chương 1', 841464, 0),
+(30, 'Chương 1', 841464, 0),
+(31, 'Chương 1', 841464, 0),
+(32, 'Chương 1', 841464, 0),
+(33, 'Chương 1', 841464, 0),
+(34, 'Chương 1', 841464, 0);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `danhmucchucnang`
+-- Cấu trúc bảng cho bảng `danhmucchucnang`
 --
 
 CREATE TABLE `danhmucchucnang` (
@@ -6127,7 +6125,7 @@ CREATE TABLE `danhmucchucnang` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `danhmucchucnang`
+-- Đang đổ dữ liệu cho bảng `danhmucchucnang`
 --
 
 INSERT INTO `danhmucchucnang` (`chucnang`, `tenchucnang`) VALUES
@@ -6148,7 +6146,7 @@ INSERT INTO `danhmucchucnang` (`chucnang`, `tenchucnang`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `dethi`
+-- Cấu trúc bảng cho bảng `dethi`
 --
 
 CREATE TABLE `dethi` (
@@ -6174,7 +6172,7 @@ CREATE TABLE `dethi` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `dethi`
+-- Đang đổ dữ liệu cho bảng `dethi`
 --
 
 INSERT INTO `dethi` (`made`, `monthi`, `nguoitao`, `tende`, `thoigiantao`, `thoigianthi`, `thoigianbatdau`, `thoigianketthuc`, `hienthibailam`, `xemdiemthi`, `xemdapan`, `troncauhoi`, `trondapan`, `nopbaichuyentab`, `loaide`, `socaude`, `socautb`, `socaukho`, `trangthai`) VALUES
@@ -6200,7 +6198,7 @@ INSERT INTO `dethi` (`made`, `monthi`, `nguoitao`, `tende`, `thoigiantao`, `thoi
 -- --------------------------------------------------------
 
 --
--- Table structure for table `dethitudong`
+-- Cấu trúc bảng cho bảng `dethitudong`
 --
 
 CREATE TABLE `dethitudong` (
@@ -6209,7 +6207,7 @@ CREATE TABLE `dethitudong` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `dethitudong`
+-- Đang đổ dữ liệu cho bảng `dethitudong`
 --
 
 INSERT INTO `dethitudong` (`made`, `machuong`) VALUES
@@ -6284,7 +6282,7 @@ INSERT INTO `dethitudong` (`made`, `machuong`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `giaodethi`
+-- Cấu trúc bảng cho bảng `giaodethi`
 --
 
 CREATE TABLE `giaodethi` (
@@ -6293,7 +6291,7 @@ CREATE TABLE `giaodethi` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `giaodethi`
+-- Đang đổ dữ liệu cho bảng `giaodethi`
 --
 
 INSERT INTO `giaodethi` (`made`, `manhom`) VALUES
@@ -6325,7 +6323,7 @@ INSERT INTO `giaodethi` (`made`, `manhom`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `ketqua`
+-- Cấu trúc bảng cho bảng `ketqua`
 --
 
 CREATE TABLE `ketqua` (
@@ -6340,7 +6338,7 @@ CREATE TABLE `ketqua` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `ketqua`
+-- Đang đổ dữ liệu cho bảng `ketqua`
 --
 
 INSERT INTO `ketqua` (`makq`, `made`, `manguoidung`, `diemthi`, `thoigianvaothi`, `thoigianlambai`, `socaudung`, `solanchuyentab`) VALUES
@@ -6482,7 +6480,7 @@ INSERT INTO `ketqua` (`makq`, `made`, `manguoidung`, `diemthi`, `thoigianvaothi`
 -- --------------------------------------------------------
 
 --
--- Table structure for table `monhoc`
+-- Cấu trúc bảng cho bảng `monhoc`
 --
 
 CREATE TABLE `monhoc` (
@@ -6495,21 +6493,21 @@ CREATE TABLE `monhoc` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `monhoc`
+-- Đang đổ dữ liệu cho bảng `monhoc`
 --
 
 INSERT INTO `monhoc` (`mamonhoc`, `tenmonhoc`, `sotinchi`, `sotietlythuyet`, `sotietthuchanh`, `trangthai`) VALUES
-(841021, 'Kiến trúc máy tính', 3, 30, 30, 1),
-(841048, 'P/tích thiết kế hệ thống thông tin', 4, 45, 30, 0),
-(841058, 'Hệ điều hành mã nguồn mở', 3, 30, 30, 1),
-(841059, 'Lập trình hướng đối tượng', 4, 45, 30, 1),
-(841107, 'Lập trình Java', 4, 45, 30, 1),
-(841464, 'Lập trình web và ứng dụng nâng cao', 4, 45, 30, 1);
+(841021, 'Toán 1', 0, 30, 0, 1),
+(841048, 'Toán 2', 0, 45, 0, 1),
+(841058, 'Toán 3', 0, 30, 0, 1),
+(841059, 'Toán 4', 0, 45, 0, 1),
+(841107, 'Toán 5', 0, 0, 0, 1),
+(841464, 'Kiểm Tra chuyển cấp\r\n', 0, 0, 0, 1);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `nguoidung`
+-- Cấu trúc bảng cho bảng `nguoidung`
 --
 
 CREATE TABLE `nguoidung` (
@@ -6530,25 +6528,120 @@ CREATE TABLE `nguoidung` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `nguoidung`
+-- Đang đổ dữ liệu cho bảng `nguoidung`
 --
 
 INSERT INTO `nguoidung` (`email`, `id`, `googleid`, `hoten`, `gioitinh`, `ngaysinh`, `avatar`, `ngaythamgia`, `matkhau`, `trangthai`, `sodienthoai`, `token`, `otp`, `manhomquyen`) VALUES
-('thanhsang@sgu.edu.vn', '111111', NULL, 'Nguyễn Thanh Sang', 1, '2023-04-23', NULL, '2023-04-24', '$2y$10$3qZEGIyBG8g/UYXpPGzQLuAUydxjCT3.W.GOozN7NC6q0KirzNrLa', 1, NULL, '1683500983$2y$10$/OQ3XtJHwCoRvQ5KcVsabOd./TTUFgzEei5JGiRodxteAjZ8uiCk.', NULL, 10),
+('22010106@st.phenikaa-uni.edu.vn', '22010106', '100101229550800922586', 'Dương Mạnh Hùng', 1, '2004-12-01', NULL, '2024-10-02', '$2y$10$wAkCgYHvLE6b9ljL4V8Swe23SKZlyB8Lj2QWVWMoXtPyVN0.XmR3u', 1, NULL, '1727866276$2y$10$s/7vV0qFydB/2EAscS7eCeex2ZEDHc2r0RfKMc7um7ZcmWz9n5g0W', NULL, 1),
 ('', '3118410081', NULL, 'Lê Hoàng An Đình', 1, '2000-05-12', NULL, '2023-04-03', '$2y$10$TIrNBq.hviCe5wJeo09VOOcU3VhJJVqTm2h1TI.MFl3ATbgT3oFae', 1, NULL, '', NULL, 11),
-('minh@gmail.com', '3118410270', NULL, 'Nguyễn Ngọc Minh', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$ppf7z.IO8CEQqJ/a8VaUsOPsYHWFeF.WPVfJPxrA5/tgmTGeRiSwW', 1, NULL, '', NULL, 11),
+('minh@gmail.com', '3118410270', NULL, 'Nguyễn Ngọc Minh', NULL, '1990-01-01', NULL, '2023-04-03', '', 1, NULL, '', NULL, 11),
 ('duy@gmial.com', '3119410076', NULL, 'Trần Đức Duy', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$BROggCTrv85iAp5QZly/Guw1gfR1R2o1kRMlzPNDPWhoyxjZWNuIe', 1, NULL, '', NULL, 11),
 ('duonggtran26012001@gmail.com', '3119410078', NULL, 'Trần Đại Dương', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$4P7JxZheSvmFMmvwC00uMOERylmXPokYjvasAHJWKVff32oWjW8U2', 1, NULL, '1680512636$2y$10$vWb.pM63qdxSIZ1byIRrmOOkQ0OpeNjRSygS96tSeqI.7RMfiE0Ju', NULL, 11),
-('tangdangquan77@gmail.com', '3119410333', NULL, 'Tăng Đặng Quân', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$eGCZUr6LFFZDRiFrSxszPOniq4aJuk5ikvi6igRfLEg7eUPAE6Xlq', 1, NULL, NULL, NULL, 11),
 ('quoc@gmail.com', '3119410364', NULL, 'Nhữ Quốc Anh Tài', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$GlrVch226bVImXFOgRCVaeaab1JUVFfqKMkB/Hc/H/tUSJz4FVoeu', 1, NULL, NULL, NULL, 11),
 ('vomaianhthpt@gmail.com', '3120410039', NULL, 'Võ Mai Anh', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$Xm6NKWUGX4WxgpFM2E7Hb.ETLWsGv9EcrX/aBZbqnkFeRXsi.eqTm', 1, NULL, '', NULL, 11),
 ('bonzusa456@gmail.com', '3120410049', NULL, 'Nguyễn Chi Bảo', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$URn80r.crDLBxiauYW5pUOQNJ3G7w.Q3F.JL7MU7YdiIlWJmytGji', 1, NULL, NULL, NULL, 11),
 ('voquang17@gmail.com', '3120410057', NULL, 'Võ Trần Gia Bảo', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$8vZHdKDmwA0YD/ix.vhORONk82Vo/3YWKtHfOKi7Zu1Pc9ytkbUNO', 1, NULL, '1683537526$2y$10$RXQWNkbXy7qh5LRAJigLm.Mrx47FuFcVx1EAAX8KZlPx4vtuWRyEK', NULL, 11),
 ('maicanhsvc@gmail.com', '3120410064', NULL, 'Mai Ngọc Cảnh', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$xfzT4kEGAKRK1X4FVT2Uv.EiCVCH5t6yCoz8DWb5VIyTUju76iRaG', 1, NULL, NULL, NULL, 11),
-
+('congkhpro291002@gmail.com', '3120410073', NULL, 'Nguyễn Chí Công', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$ECjfxBc4i0mSbLdIBBq4ket62WgJ5uNhQfzGnZPv7NYFGwJmOfYQa', 1, NULL, NULL, NULL, 11),
+('huynhthanhdanh9a4@gmail.com', '3120410077', NULL, 'Huỳnh Thanh Danh', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$5RvfOnL0NbBanBzBNj7h3eUjAQ/c.zkMvS05pHcM/O2VNz6k.35DK', 1, NULL, '1683537589$2y$10$BJsBliRmuoavCaFN2oQG.eU6D7j7qNplUGPlqqMwOKo/c2QJZZbMS', NULL, 11),
+('dung31072002@gmail.com', '3120410084', NULL, 'Nguyễn Văn Tiến Dũng', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$hUZwO93egjmJKlFY2E657e90lY5d/GrogbQqy4yAB3KyLIUx4fOGS', 1, NULL, NULL, NULL, 11),
+('huynhlamduylcd@gmail.com', '3120410089', NULL, 'Huỳnh Lâm Duy', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$f77OWQalGXJRnNbS6kDqHeahi0mGE8GFbU8tFJdHzFedAL0nscJhO', 1, NULL, '1683539713$2y$10$dHLWOIIQzxtR9XKEcfGDB.9C2NXWOe1V/d9x7fbCSjh0Th4Q7Zh1e', NULL, 11),
+('2002nguyenkhacduy@gmail.com', '3120410094', NULL, 'Nguyễn Khắc Duy', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$BYIGSyLw6pL1CDenXRN8GeSTiacxO876gHLflRPYYIn6BoyA9OtVK', 1, NULL, '1683539546$2y$10$mk8rFH4Mpk.YXNgHeoOU7OPFiQEZ.3FPqilWXiiWuIlK/EXVo3ncu', NULL, 11),
+('lexuanduc147@gmail.com', '3120410138', NULL, 'Lê Xuân Đức', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$Q.n2ZwlLSWdFExtVu.PFkOA4XMfYjO1GKr/3WavM1ZIcLJ.HsnW2a', 1, NULL, NULL, NULL, 11),
+('', '3120410167', NULL, 'Đỗ Minh Hiếu', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$c0s/YBe1d7utc90YCIwpZOxmvQI2Ti1nVpmOePifCEo9W8xjLtt6S', 1, NULL, '', NULL, 11),
+('dantedmc1134@gmail.com', '3120410241', NULL, 'Nguyễn Tuấn Anh Khanh', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$.7E4WnEyAkHLK.1mcys1AueUlrPmckRFK9BY7PZcd6Ju3sUhkAyti', 1, NULL, NULL, NULL, 11),
+('', '3120410251', NULL, 'Lê Duy Khôi', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$q9E9S/lrbgWEiWnvUSunhujxcuB03w4N9mAxJUwIKqkjT5IznYREe', 1, NULL, '', NULL, 11),
+('', '3120410277', NULL, 'Đào Ngọc Linh', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$upysB1tgzHEajV3stIbChOeSCldAH73zUcQe4lf669gMOHtXlrbdK', 1, NULL, '1683514077$2y$10$ut.ZjaBxddx3oeuA0JQrfOPtHBlVb7zMU7.zdL1qfUG81c4sCgKYe', NULL, 11),
+('', '3120410293', NULL, 'Nguyễn Trương Tấn Lộc', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$tXVZXrvtlN0SoedxtW8oy.cA9ZIUEbJQ9gnHYMt1mb5Yl9g.IZD6e', 1, NULL, '1683462659$2y$10$5ivNF9oYZXZEgRzxU6wTSOWWwDNlclqQQXY0y5UZQ82tmqVhJ.4RW', NULL, 11),
+('vanluong30112002@gmail.com', '3120410309', NULL, 'Nguyễn Văn Lương', 1, '2002-11-30', NULL, '2023-04-03', '$2y$10$htQnv1w1Yrgvu2SRnLiOm.aWMU.HRT.CBCbzjxXrsbcXZRcksFLXK', 1, NULL, '1683540147$2y$10$mGfFjoky.SYwc8MmdbCneeSz50elaisrg10iSlETSJ/0Jdk1ss/1O', NULL, 11),
+('', '3120410324', NULL, 'Lý Tuấn Minh', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$AXDs43ZyKHL7EVEZIJctFeNu8PCc1H3JluGINM.X.wCCdRQmB2zcq', 1, NULL, '', NULL, 11),
+('', '3120410334', NULL, 'Huỳnh Ngọc Nam', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$gWN1w8jxnQjx30RcjyKEOuOUjmLCKpZ9z.Tpwr43Tdn/DJIYpFAUe', 1, NULL, '', NULL, 11),
+('toilanam12309@gmail.com', '3120410335', NULL, 'Nguyễn Thành Nam', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$YEtZaugxaobZuI276TNHdOPBQfjO74CHIave.2xD6qO3APvdx3/Eu', 1, NULL, NULL, NULL, 11),
+('', '3120410347', NULL, 'Bùi Minh Ngọc', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$inlJRGUB7eB5JMZFqxfQWeK7TzMTk1ynNShWNLX7CfSnq.9ztsV/e', 1, NULL, '1683462871$2y$10$jiHn/KzM.6n8L.QT0LXqCOSN40IICkGKvNjmtMYJNZ6UNlM/ktQm.', NULL, 11),
+('nghkhoinguyen2404@gmail.com', '3120410353', NULL, 'Nguyễn Hoàng Khôi Nguyên', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$.9Zn9e8VG5aw8UmEvsPOVOlUVVVGgzAwofPYhtDnEeF5DbpkJ4VU.', 1, NULL, '1683539979$2y$10$5xR9krBhZgD/4UEBHqH7eOJyYL5aPD/M1VVIPOQCDxoVBE2g9ZLPi', NULL, 11),
+('sinhtruongvo@gmail.com', '3120410452', NULL, 'Võ Trường Sinh', 0, '1990-01-01', NULL, '2023-04-03', '$2y$10$j77VdE0wuJJK/q1ESUJ5Auzsk3AbTih1rhpEC/5y6LNf4x4oYavUO', 1, NULL, '1683540773$2y$10$kqnjLwgtf1hFkEihvwlzluFHM42Q5wm6NSbqZCx9PZLxRLGK4/9Oq', NULL, 11),
+('thanh@gmail.com', '3120410473', NULL, 'Nguyễn Hữu Nhựt Thanh', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$DCsJH6wxveYWPzj8EPtxIuYs2ZG/DairTsG104VY8FUtqU2DGq/Ku', 1, NULL, NULL, NULL, 11),
+('Pham.tuanred@gmail.com', '3120410589', NULL, 'Phạm Thanh Tuấn', 1, '1990-01-01', NULL, '2023-04-03', '$2y$10$YLBnzdhTl.1.k5cZ1Ha5EOw.DpvE3pOiohi6zjeKQJWbHhkT36jLO', 1, NULL, '1683540390$2y$10$aHEgNpIjGCpuGRphBBay/e2.Y6KBB.7RVLrNb3wOQhV8banycgJIC', NULL, 11),
+('', '3120410606', NULL, 'Lê Thái Vi', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$RvwSyioWi7PBWggcosr3EePZNftfVEoxonwmfzw2VrvqPth0YUb4.', 1, NULL, '1683470738$2y$10$yIzwIRzFmgcAov6OxnRbDO9eVdZiwHvoxkkkYx5RkmNi74DgmjtYS', NULL, 11),
+('', '3120410607', NULL, 'Hà Quốc Vĩ', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$yYHG7wNM2pI/74EHtY1dCuDdaHq2FEryLyRCRhL989HpfEjURcCDa', 1, NULL, '', NULL, 11),
+('', '3120410609', NULL, 'Lê Hồng Việt', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$RStZiAV2xK6r9UGlojuFQeUZ4wSooXBHSPD3jOCc7Fc0nuIh5labC', 1, NULL, '', NULL, 11),
+('quangvinhlai123@gmail.com', '3120410613', NULL, 'Lai Quang Vinh', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$xF2MK2kA8WLj3byHYw6l1OL/CXL7SmrvttS.Fp7htVyN.vG1kUNdm', 1, NULL, '1683540153$2y$10$za8Udckqo3m32Buab8fQSOHcz5I1oTK0HpK3g9jDSnEUHM35pqxpu', NULL, 11),
+('Phamhaovinh2002@gmail.com', '3120410618', NULL, 'Phạm Hào Vĩnh', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$55rJmu1LBI19euif6j8o9.8QtsRUh7ZDFFOaPV73r0eYBuSUl6.K.', 1, NULL, '1683540136$2y$10$Q8IR3z5APG4gDEigP7Lmwuzr1u6greDc0vrPlFiInupex4VZL.1rq', NULL, 11),
+('hieu01654661521@gmail.com', '3120560026', NULL, 'Ngô Minh Hiếu', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$879FBwxFefMQCIXlnMA6RuJfwG6.FSubAm3FPVgNrxaMRw9if0A3q', 1, NULL, NULL, NULL, 11),
+('', '3120560034', NULL, 'Phùng Đức Huy', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$/lZFffp3mo36H/Qw/2wIS.j9pOd.ZVIq2cPRa/emEStUxEz6fS2gW', 1, NULL, '', NULL, 11),
+('', '3120560043', NULL, 'Nguyễn Anh Khoa', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$JgqJFgSf8fDwP0EuHYMUuuZbiUF17CAf9Sq5QXO5.PH33Shj7rTEu', 1, NULL, '', NULL, 11),
+('vongcongmenh2k2@gmail.com', '3120560059', NULL, 'Vòng Cỏng Mềnh', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$6gnPQ096ZxMjTOe/OQbSJun1z1xDD1HsQFce2suoBhqaJbt8iejC2', 1, NULL, '1680512846$2y$10$bTCX03tAi74LEt6LbxElkeFUS6YicY/dSednN2W2lcimFPTIKD3zK', NULL, 11),
+('namhoang.240102@gmail.com', '3120560062', NULL, 'Hoàng Nam', 1, '1990-01-01', NULL, '2023-04-03', '$2y$10$t/OhZW54xSbLVy3SQHaVBuG/iY6XU7B3memc.xJxgud8Rhm8/Q67W', 1, NULL, '1680513147$2y$10$8kSAHqM2Zu1c9Ke8aA7dOOmvi9uGLYdRhCBktRKbJSaBTpdGt8O0S', NULL, 11),
+('huynhkhaphiprovip@gmail.com', '3120560072', NULL, 'Huỳnh Khả Phi', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$WW9udJ1QOBZ.pf9UrenrjOujLfMEJsjYALowcCrysd70JgQ0B.6Qq', 1, NULL, NULL, NULL, 11),
+('syphu1995@gmail.com', '3120560073', NULL, 'Nguyễn Văn Sỹ Phú', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$hWUR2m6Ev6C/0ZzLcWmDEuXSY/DmHFHG4NsnFRTzJLXIXWgOFdXzO', 1, NULL, '1683540089$2y$10$HXXiHG4WtQXUKL.tEmy9BufZGJbQYtD94qN4yNHPUU5TBiRSTrunq', NULL, 11),
+('nguyenminhthao12b1@gmail.com', '3120560090', NULL, 'Nguyễn Minh Thao', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$1LL2X5mCFbzz.C5FrxV9a.SRT4r5ZMbEd3SmuigLUhb6mFHxomF52', 1, NULL, '1680512911$2y$10$1qUlM8g4g409Yr/DP7mJ1uOVHOB8KnTgUMG/SciSc.J1BwlaUetY2', NULL, 11),
+('thongnguyenhkt@gmail.com', '3120560093', NULL, 'Hoàng Lê Anh Thông', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$Ewocrys2tTbcjdK92PcO/uWDErpHAu6eRAiDtGEzcy58DUCBCsWmS', 1, NULL, '1683537581$2y$10$vO9aUm.oB.Y1GH1oAKJZauiF1/m2LkJhEpqO40Kvcmor9q53sBoKm', NULL, 11),
+('tbt31103@gmail.com', '3121410021', NULL, 'Trần Bảo Trân', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$fdKWQ21Y8vxpdJFNJKCBCu/nq13I3v0l/8L0jbDCRNNXyj/EMqPHS', 1, NULL, NULL, NULL, 11),
+('', '3121410023', NULL, 'Tiền Minh Vy', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$9z74EiTcPlaqUL7LNPwzWuHgWMpxMtMB0SVEUzzWCC9JMfTKM36uO', 1, NULL, '', NULL, 11),
+('', '3121410055', NULL, 'Nguyễn Thế Anh', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$toHJWgczF2JfB08qMFmM3.DFG4HsYkEJbOLjjyr.L.JPMyp2Aey/q', 1, NULL, '1683457910$2y$10$HbKZj90IJkakjGX/U.pfSuuGkdHN5pzGIa9ACUWCANl7UUbY5hHMC', NULL, 11),
+('hongbao2003@gmail.com', '3121410066', NULL, '4t43t43t', 1, '1990-01-01', NULL, '2023-04-28', '$2y$10$ib0wHQ/FkcyjGoagvnjwreo/iBfxHMNkDH9yUQaZNe6MJdRLApnlS', 1, NULL, '1683470910$2y$10$c2jyxhipFXM36BV2IwieVeqLngFSzXd0rgSOXlfPFqyaS3U7txr..', NULL, 11),
+('musicanime2501@gmail.com', '3121410069', '108675578517307783995', 'Hoàng Gia Bảo', 1, '1990-01-01', NULL, '2023-04-03', '$2y$10$Yk8JB1Qdy9jSEp5.c6PuxOhbAF5hwkGo3hnAT00jSqzSaMpODJVtG', 1, NULL, '1727866023$2y$10$TpOJXM5C5kSvu65/mMhb/ue3IEJ0xjNHlch/pdYZZZioNR.UnvAVm', NULL, 10),
+('', '3121410070', NULL, 'Hoàng Gia Bảo', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$vMhh29Z7KaXugu31.ptyWuymcy0qOrAg/G/Zl2cJvtTb.xal8/326', 1, NULL, '', NULL, 11),
+('', '3121410082', NULL, 'Nguyễn Thanh Bình', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$MEyUCDFJg0.2YdxClNvqW.aRcwMICZ0L6W0AtEml/zwidV1/N7ERW', 1, NULL, '', NULL, 11),
+('', '3121410087', NULL, 'Mai Trung Chỉnh', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$8QsbwByesBJ1ZKJd3NxSsuQzIvTT4W5S7omUnjAna1j50wNqsKEWe', 1, NULL, '', NULL, 11),
+('chuongle.nt1@gmail.com', '3121410092', NULL, 'Lê Viết Chương', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$ZxxobCLP6W1oeSWUJ9ZYO.npRWtLovaKgP34J9iUusFUNPobCErNe', 1, NULL, NULL, NULL, 11),
+('', '3121410131', NULL, 'Trần Hải Dương', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$7wd/yjoGyzYT6Gwr8BfHZejCOP8tbdUrpnc98/cgIht1kTYrXPPm6', 1, NULL, '', NULL, 11),
+('dannguyen11003@gmail.com', '3121410137', NULL, 'Nguyễn Đào Linh Đan', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$3aOFXhIc3sohxi44I9iHmOZ04LN546Q.OZcB0MJ93mPWZTq7KN2M2', 1, NULL, '1683773033$2y$10$gstLgBQ3QjcIhbP0KwPR1.6Mf2WjzPGNrUn0SWPImXLMnK4pT7kNu', NULL, 11),
+('datnt653@gmail.com', '3121410146', NULL, 'Nguyễn Thành Đạt', 0, '1990-01-03', NULL, '2023-04-28', '$2y$10$mDTPvAv8wQpC2I7wGiOeVefr1sle6iGQD0l8.1hdSMVs0uls3T2v.', 1, NULL, '1683689752$2y$10$F1WXCGrmVB56tToaIVEB2eQgHaRxee1eKIxGpU38xIHoAbicXBCVq', NULL, 11),
+('', '3121410154', NULL, 'Nguyễn Phương Điền', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$RyWYKlrXAWpd4WReSv.QS.YInoV4k9AsCfh8Js2prFN.9BzOiKNJC', 1, NULL, '', NULL, 11),
+('', '3121410182', NULL, 'Trần Vĩ Hào', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$oxLthPWNqlj2r1kj.Jm/cOpeetvHmAO/zDENlb2aVEb00ozIWbc8q', 1, NULL, '1683489792$2y$10$.qPcu1pDSvXr1nogpHwJO.PMwn5nlJnQEbgmFM.HUNu75fqCMGeIS', NULL, 11),
+('nguyenhoanghiep478@gmail.com', '3121410190', NULL, 'Nguyễn Hoàng Hiệp', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$wYLbDTa.lxXm7HUMBbkJae/UpWIR9ekY9QZc8WcBJAafuehCMtmhy', 1, NULL, NULL, NULL, 11),
+('abc@gmail.com', '3121410205', NULL, 'Vi Thị Hoa', 0, '1980-01-01', NULL, '2023-04-28', '$2y$10$rUi3GhWDHocClNI4ij7D9u89gn3467lRwzFAFesG14sfPGAjHIYCO', 1, NULL, '1683489626$2y$10$8uAiX5n8bq0GVWJuFqFEOOOL/DHd7IPN83EWvGziWlGUieMo/5/Iu', NULL, 11),
+('xuanhoang03@gmail.com', '3121410208', NULL, 'Đỗ Ngọc Xuân Hoàng', 0, '1990-01-02', NULL, '2023-04-28', '$2y$10$frWegA4Rzr/3inWRAyxAKufWlU1x8tPLcXNcWKDO.NJuSpZqJyF4O', 1, NULL, '1683498229$2y$10$XKKEpltNptHnF9YNyeOGCeNqygkgACl3cvch8xlZU1dzV2kAdEpu6', NULL, 11),
+('', '3121410210', NULL, 'Lê Long Hoàng', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$Cz7KtWT474YFwuqEz.A1S.42L.JwE.YMNMpHbpmt3n.yO2d.Ydx1G', 1, NULL, '1683489973$2y$10$w..yr7/1h3m1lQSAntmn5Onylxt.Ly0srCd0qiz3M4XXGFCnzzn1W', NULL, 11),
+('Emilia@gmail.com', '3121410212', NULL, 'Nguyễn Huy Hoàng', 1, '1990-01-01', NULL, '2023-04-28', '$2y$10$oK4DY2bf6vj3jAx7SpjrzeTK4PWyZg3XNi6XnlKM9xfoTkJ2/Wj2W', 1, NULL, '1683490056$2y$10$MOE5NT.IdnG0XcZrBg/z3Oka1ejppljqXGDKbpYr1AkaMUQMOELA.', NULL, 11),
+('hoangdztv001@gmail.com', '3121410215', NULL, 'Võ Đinh Xuân Hoàng', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$eyxsIWoPfbKWMlrs.JeiQeOWXST2J3RXMU6aDxtJK1pjDLeRdKUum', 1, NULL, NULL, NULL, 11),
+('anhhuy2452003@gmail.com', '3121410223', NULL, 'God_Simon5649', 0, '1990-01-01', 'trieulotu-6458bef447093.jpg', '2023-04-03', '$2y$10$1BySR7R6onKegw1/NtyByuoT5Qk4F4qSG9m/zEKsCYLqq./Yk4vLq', 1, NULL, '1683538360$2y$10$w7zcT3/dQWgRa3IUZfEIHu5Ma9y2u.SOR1npXwQ.uOL3rlmFMafLu', NULL, 11),
+('', '3121410236', NULL, 'Biện Thành Hưng', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$xRSlSt4FGsO/kKh5JaLMC.I2UoGDeMmue/V8GaabZpH86hF2lpCWK', 1, NULL, '', NULL, 11),
+('', '3121410265', NULL, 'Nguyễn Huy Khiêm', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$2rHf.OmSfPkXBEGtsbkHHOtUrRoFWv8Y9G6GFrFcIu5SJxnKJO3EK', 1, NULL, '', NULL, 11),
+('', '3121410274', NULL, 'Nguyễn Nhật Khoa', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$FKhRJbb6sMs2VVOT4AhVWurzDb8IFMZkJrd.ofS7ZaR16xMi1ulXq', 1, NULL, '', NULL, 11),
+('a@gmail.com', '3121410284', NULL, 'Lê Trung Kiên', 0, '1990-01-01', NULL, '2023-04-28', '$2y$10$ko8sCTrJ8S4lTXZpDA4z0.MNXkdNCmiJEeI9hHlp0YDrtHaura3RC', 1, NULL, '1683490744$2y$10$4WbIg7ewza5Te2WFIIqkC.fG9hXpYEEPNhSK97AWTGT/0E9XqFBbK', NULL, 11),
+('quanglinh1023m@gmail.com', '3121410294', NULL, 'Trần Quang Linh', 1, '1990-01-01', NULL, '2023-04-28', '$2y$10$z6GPpPZhabHaczzVfEyCq.HBQtttnwocEoe.5tDnsDl6UiZ29rPWS', 1, NULL, '1683490278$2y$10$EKOPY74qz46ZTp2hPC43/OLjt3j64DDd2mRJyOR1tyDORJEd9zefi', NULL, 11),
+('', '3121410304', NULL, 'Trần Dương Đắc Lộc', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$uHwjiP7sAdLoMXhGuy6ttO8E.IHcz7CU954VSPiSwyJmMKPceXo06', 1, NULL, '', NULL, 11),
+('maine14022021@gmail.com', '3121410314', NULL, 'Võ Xuân Mai', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$ryfZzo0aCYLA46ZSMNRDN..NsefqN9fyXFuLOrqQZlWqKk8N74HSi', 1, NULL, '1683538029$2y$10$Aj6lx7FWHX7iLO4aQKdI0ugouaeHTq/O91kjCA6sPnifbJlgi62ta', NULL, 11),
+('minhkhung040601@gmail.com', '3121410321', NULL, 'Nguyễn Hoàng Minh', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$byepbTdGjSRvuoYZ/l3sPuGasVDVbPS0KHSkeGwwxw0hJQeCPDVAi', 1, NULL, NULL, NULL, 11),
+('mymin00007@gmail.com', '3121410326', NULL, 'Võ Thị Diễm My', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$0eynM/cn8LQV0PRizhfJAeLSz1pJ/WPRKVcFo62GA8ZFQHj1aDwNq', 1, NULL, NULL, NULL, 11),
+('', '3121410330', NULL, 'Lê Hoài Nam', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$MGV1S3aiiKaYbwqLcm450eySV.Xsz0Hc13b2Kc8oEGfSPw9luSILK', 1, NULL, '', NULL, 11),
+('', '3121410353', NULL, 'Trần Khôi Nguyên', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$TFwaAh8B/Yyp0rtMx1SwFeZYIYmAv3lMaTmrt9vWAl0HTal5dK.zO', 1, NULL, '', NULL, 11),
+('nhienau@gmail.com', '3121410370', NULL, 'Âu Hạo Nhiên', 1, '1990-01-01', NULL, '2023-04-03', '$2y$10$mvSP064FKahEDzBXECoIBeHIXu9iYwwUTEDcQ2FduItyRJor2QTYO', 1, NULL, '1683537540$2y$10$mreNi3SJWFUYKGCtVALm/.KPPBJz7zfJmrv7Nn.yl8j6fQWugA3ly', NULL, 11),
+('', '3121410374', NULL, 'Nguyễn Văn Ninh', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$BLkPDhmDSNKubYrt3ENZzeOjj/aOfr7lkCVxatZXBVk8RkNauXTmy', 1, NULL, '', NULL, 11),
+('', '3121410379', NULL, 'Nguyễn Tiến Phát', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$UholqGm5COSlDiJI/X42Xu2xwEodQUKM0O0rH9RvphWgiue3CQVw.', 1, NULL, '1683471577$2y$10$mi7/7szNFyhtlC1Jxdu73unoQP/NsQ4OXhPNIiuEjM6G9THBS1hou', NULL, 11),
+('', '3121410383', NULL, 'Nguyễn Thanh Phong', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$AY3ZFJvjP9fQIt0AKJvZhegoPF8f7ATiM/85KTjlCeAbFxj9K7oee', 1, NULL, '', NULL, 11),
+('', '3121410401', NULL, 'Trần Như Phú Quang', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$0PJJJ9Xnl0M1JaO6yQC7c.oYfAEg6yH1LdzzoQc2aXMSdJf5lhcvS', 1, NULL, '1683471334$2y$10$ZtS11cScfoYpxyMFBZ2VnuaxCji0jYog0RGQr8V1BM/jsM5sAHbMW', NULL, 11),
+('', '3121410417', NULL, 'Nguyễn Ngọc Sang', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$MHJV7P1ikocVLk224Qc6Pepqv/Faa.KM0pOpro6X3vs4yQBmkaC7O', 1, NULL, '', NULL, 11),
+('transinh085@gmail.com', '3121410422', '100101229550800922586', 'Trần Nhật Sinh', 1, '2003-12-20', 'avt-642a79bfbf4dd.jpg', '2023-04-03', '$2y$10$F3FQFNZwijEhnKf4EVrkVeaJNtW0icztly.M4sNrHn2GDsT1DsARy', 1, NULL, '1727864671$2y$10$so603EY3g0AGfKB73RDsQ.OKYsm2PK2DgJ0kBNu2kx/EpPI7/X9Ia', NULL, 1),
+('', '3121410425', NULL, 'Nguyễn Ngọc Sơn', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$.G55sVqwn9nX1aSgE6inmONpV3P4oevHQnyl9bi01tIJpGLtC9dGu', 1, NULL, '1683490370$2y$10$dRfCU0tkVOpa3T7vFspPVeXbdQelpu.UYLqD4v.Hb4Ljfwa2c4rVO', NULL, 11),
+('', '3121410482', NULL, 'Nguyễn Minh Thuận', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$PZ6A6jTsDEv1A3gk1hc/oOfNCYibe7lv0TXHX8a37nNtnQhshFI7G', 1, NULL, '', NULL, 11),
+('', '3121410531', NULL, 'Võ Thanh Trọng', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$ZV7euI8DbBpDSYEhSnJUAufB27/WmQnQyYucSDGyM8NEwf1ArvhpO', 1, NULL, '', NULL, 11),
+('hvthanhtruc121203@gmail.com', '3121410532', NULL, 'Hoàng Vũ Thanh Trúc', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$2wpxS910jWaIclHRRwjDuurPPR2Ze8d8VBQwJFWDNlKe4k86XBLIy', 1, NULL, '1683538040$2y$10$bVgQGnTzc6O6WMEjemwrMuMGNsNXAe6gB610Q8KgY3U9sEHuGCTnW', NULL, 11),
+('Nguyenminhtruong0905@gmail.com', '3121410541', NULL, 'Nguyễn Minh Trường', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$X02R.wyQI0gxbfollpZygeX.cHiJUiFDavrznvi79kSDiiSHFxzkm', 1, NULL, NULL, NULL, 11),
+('pham.tu1343@gmail.com', '3121410550', NULL, 'Phạm Thị Cẩm Tú', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$5bVSCNCv7fhpq7ZgyS0ZMeGAqZEOeiZ/WW74YLO/NrJaEer36sHXa', 1, NULL, NULL, NULL, 11),
+('hcjcj@gmail.com', '3121410555', NULL, 'Mạch Hạo Tuấn', 1, '1990-01-31', NULL, '2023-04-28', '$2y$10$lpwujU/UfvPPRE/ioyZuvOGVtBseogPJ.BVwUWNoSin.Az7M568B.', 1, NULL, '1683490586$2y$10$gJomXo7EL8DRbwWe2ABlROJClOvg0W/4Nxfd5AB7uUJdZzifBf49y', NULL, 11),
+('', '3121410559', NULL, 'Nguyễn Minh Tuấn', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$X8/hRlZIZaweZH.70SRbPujy65LVZOkrb4nTk7wO.OeTqBlAD8aQO', 1, NULL, '1682675457$2y$10$PuhHj/vJD4w8lZpmKCw3ZOpR.v3ZbcSTZmywaA4yOeQHF4LZHewru', NULL, 11),
+('', '3121410585', NULL, 'Nguyễn Yến Vy', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$i0NJBb4OAd5kFW6Ax6xuyOibCN4Vu4X0jWxGKZOqediaTFn/hmKsK', 1, NULL, '1683490384$2y$10$Sw6BR1diMd/cciP.1c3NxeAU3UJUdxjuJCPGfno3cfZqkTLA.d5Ea', NULL, 11),
+('', '3121560017', NULL, 'Trần Đức Chánh', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$gMYFUgK3ezkULN7nDb9PSewfFZRqRszb6kqWMfI4O9u3299bBdcES', 1, NULL, '', NULL, 11),
+('', '3121560022', NULL, 'Nguyễn Thanh Duy', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$OThIhu9eXVZXxZ.ialso2uVX/qnFbpLi3qybz7ZvxeVatEJiN/1oG', 1, NULL, '', NULL, 11),
+('', '3121560023', NULL, 'Võ Khương Duy', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$clMKb2/fg2xAJEyyUEVXFexT18aBvi7SX3HUyEFE7bhtt0khejysS', 1, NULL, '', NULL, 11),
+('', '3121560025', NULL, 'Đỗ Tiến Đạt', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$CCJCfMLZI2OEmm0v2JPqYeYG5Qy7Z1HSyWKM61Gkb1cpeKEQCHKa2', 1, NULL, '', NULL, 11),
+('tienhai488@gmail.com', '3121560029', NULL, 'Lê Tiến Hải', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$PVzQoJtfubSWFfj0gZUuPe4tEIT.OJfyVvwwWMjrhEF0rbAohsPWy', 1, NULL, '1680512474$2y$10$YPWrgWDI/sNkl6vGk46mXOzvxqcvsP8Ir/PFL.9ypGi5MiSGEZ6AS', NULL, 11),
+('hn26677@gmail.com', '3121560033', NULL, 'Nguyễn Trương Khánh Hoàng', 1, '1990-01-01', NULL, '2023-04-28', '$2y$10$9LZCH7U7t82W26ZuQrcctegn9GO49YNoT2pDlP4JCrsHG5Bz0zATq', 1, NULL, '1683085032$2y$10$XgJY/4wo7POTYc6sT3Wvi.Wn7dlJSmfVuttPLsPnb3j1kQJYoiGGG', NULL, 11),
+('ngochuy09123@gmail.com', '3121560037', NULL, 'Nguyễn Ngọc Huy', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$ogj1F0OCj831XPj4w1dMiejilcnXDbiuyW.msIR5V50snaKjoXoQu', 1, NULL, '1680512961$2y$10$.8F.AfwkQDLXmAl/NQlnoOEuEyU//gNQCFfPpmRiq/AAy6Yrt.R1K', NULL, 11),
+('', '3121560038', NULL, 'Nguyễn Phúc Huy', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$4iZzMEJFgNDd9R1iY5EsEeeJaiK353dp8lL4gWs1/oCeHsWC4Csmi', 1, NULL, '', NULL, 11),
+('', '3121560043', NULL, 'Nguyễn Nhật Khải', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$.mWyI3q9VP2ZXQ9mKQ6SaOcAKCjj/tEbooZtoSTVogp1jjW1zVmfW', 1, NULL, '', NULL, 11),
+('', '3121560045', NULL, 'Nguyễn Hữu Khiêm', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$QO3E1ynDP7bQf5dE442su.iVTBeA4TRAuqUB5Gxky.B0t4smY15Oi', 1, NULL, '', NULL, 11),
+('', '3121560051', NULL, 'Nguyễn Hoàng Luân', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$RRMniRjjS0QQ3tVmWdlXmeqOxJQSO9fPzbBAtiamJeLCX9WtW.ONq', 1, NULL, '', NULL, 11),
+('tranphap0407@gmail.com ', '3121560065', NULL, 'Trần Anh Pháp', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$OlmMK7SnKfHG3joD2rOhDufp8jKx03vvvtyerA5KCT/rvMO0t/DyC', 1, NULL, NULL, NULL, 11),
+('sonnguyen352003@gmail.com', '3121560078', NULL, 'Nguyễn Hồng Sơn', NULL, '1990-01-01', NULL, '2023-04-03', '$2y$10$7DE3CMIJar7hLK9Gx.rMxOahpqV0TfUqFiS1MwfRM50ZKBHFhzJme', 1, NULL, '1683540615$2y$10$xOlYstKjSrQWEhtV6lUGIOChQD3UDahVEdTkx4Fx1vpVKxpzbHoOO', NULL, 11),
+('emlatam026@gmail.comdsadadsadsa', '3121560080', NULL, 'Tam Xinh', 0, '1990-01-27', NULL, '2023-04-03', '$2y$10$76J0rFIqPFp0q4ankZJpherOp6X3Ls7FkcJ6B.TbTSY4378lI9RsC', 1, NULL, '1683540176$2y$10$xJ/f/RdiLWou.ahngoHuAuq6fbWug3nwk8BbvkN65CXAWWYOb5i9u', NULL, 11),
+('', '3121560087', NULL, 'Trần Khang Thịnh', NULL, '1990-01-01', NULL, '2023-04-28', '$2y$10$Np0SBktt3LOJcTw7oV5P6.sO4wcTQqYQB6FY4JnwzVCnvU1uRW4j2', 1, NULL, '', NULL, 11);
 
 --
--- Triggers `nguoidung`
+-- Bẫy `nguoidung`
 --
 DELIMITER $$
 CREATE TRIGGER `delete_chitietnhom_by_id` BEFORE DELETE ON `nguoidung` FOR EACH ROW DELETE FROM chitietnhom WHERE chitietnhom.manguoidung = OLD.id
@@ -6558,7 +6651,7 @@ DELIMITER ;
 -- --------------------------------------------------------
 
 --
--- Table structure for table `nhom`
+-- Cấu trúc bảng cho bảng `nhom`
 --
 
 CREATE TABLE `nhom` (
@@ -6576,7 +6669,7 @@ CREATE TABLE `nhom` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `nhom`
+-- Đang đổ dữ liệu cho bảng `nhom`
 --
 
 INSERT INTO `nhom` (`manhom`, `tennhom`, `mamoi`, `siso`, `ghichu`, `namhoc`, `hocky`, `trangthai`, `hienthi`, `giangvien`, `mamonhoc`) VALUES
@@ -6594,7 +6687,7 @@ INSERT INTO `nhom` (`manhom`, `tennhom`, `mamoi`, `siso`, `ghichu`, `namhoc`, `h
 -- --------------------------------------------------------
 
 --
--- Table structure for table `nhomquyen`
+-- Cấu trúc bảng cho bảng `nhomquyen`
 --
 
 CREATE TABLE `nhomquyen` (
@@ -6604,7 +6697,7 @@ CREATE TABLE `nhomquyen` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `nhomquyen`
+-- Đang đổ dữ liệu cho bảng `nhomquyen`
 --
 
 INSERT INTO `nhomquyen` (`manhomquyen`, `tennhomquyen`, `trangthai`) VALUES
@@ -6617,7 +6710,7 @@ INSERT INTO `nhomquyen` (`manhomquyen`, `tennhomquyen`, `trangthai`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `phancong`
+-- Cấu trúc bảng cho bảng `phancong`
 --
 
 CREATE TABLE `phancong` (
@@ -6626,20 +6719,21 @@ CREATE TABLE `phancong` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `phancong`
+-- Đang đổ dữ liệu cho bảng `phancong`
 --
 
 INSERT INTO `phancong` (`mamonhoc`, `manguoidung`) VALUES
-(841059, '3121410422'),
-(841107, '3121410422'),
-(841464, '111111'),
-(841464, '3121410069'),
-(841464, '3121410422');
+(841021, '22010106'),
+(841048, '22010106'),
+(841058, '22010106'),
+(841059, '22010106'),
+(841107, '22010106'),
+(841464, '22010106');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `thongbao`
+-- Cấu trúc bảng cho bảng `thongbao`
 --
 
 CREATE TABLE `thongbao` (
@@ -6650,7 +6744,7 @@ CREATE TABLE `thongbao` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `thongbao`
+-- Đang đổ dữ liệu cho bảng `thongbao`
 --
 
 INSERT INTO `thongbao` (`matb`, `noidung`, `thoigiantao`, `nguoitao`) VALUES
@@ -6660,11 +6754,11 @@ INSERT INTO `thongbao` (`matb`, `noidung`, `thoigiantao`, `nguoitao`) VALUES
 (7, 'okkkk', '2023-05-08 16:53:49', '3121410422');
 
 --
--- Indexes for dumped tables
+-- Chỉ mục cho các bảng đã đổ
 --
 
 --
--- Indexes for table `cauhoi`
+-- Chỉ mục cho bảng `cauhoi`
 --
 ALTER TABLE `cauhoi`
   ADD PRIMARY KEY (`macauhoi`),
@@ -6673,21 +6767,21 @@ ALTER TABLE `cauhoi`
   ADD KEY `FK_CAUHOI_MONHOC` (`mamonhoc`);
 
 --
--- Indexes for table `cautraloi`
+-- Chỉ mục cho bảng `cautraloi`
 --
 ALTER TABLE `cautraloi`
   ADD PRIMARY KEY (`macautl`),
   ADD KEY `FK_CAUTRALOI_CAUHOI` (`macauhoi`);
 
 --
--- Indexes for table `chitietdethi`
+-- Chỉ mục cho bảng `chitietdethi`
 --
 ALTER TABLE `chitietdethi`
   ADD PRIMARY KEY (`made`,`macauhoi`),
   ADD KEY `FK_CHITIETDETHI_CAUHOI` (`macauhoi`);
 
 --
--- Indexes for table `chitietketqua`
+-- Chỉ mục cho bảng `chitietketqua`
 --
 ALTER TABLE `chitietketqua`
   ADD PRIMARY KEY (`makq`,`macauhoi`),
@@ -6695,61 +6789,61 @@ ALTER TABLE `chitietketqua`
   ADD KEY `FK_CHITIETKETQUA_CAUTRALOI` (`dapanchon`);
 
 --
--- Indexes for table `chitietnhom`
+-- Chỉ mục cho bảng `chitietnhom`
 --
 ALTER TABLE `chitietnhom`
   ADD PRIMARY KEY (`manhom`,`manguoidung`),
   ADD KEY `FK_CHITIETNHOM_NGUOIDUNG` (`manguoidung`);
 
 --
--- Indexes for table `chitietquyen`
+-- Chỉ mục cho bảng `chitietquyen`
 --
 ALTER TABLE `chitietquyen`
   ADD PRIMARY KEY (`manhomquyen`,`chucnang`,`hanhdong`) USING BTREE,
   ADD KEY `hanhdong` (`chucnang`) USING BTREE;
 
 --
--- Indexes for table `chitietthongbao`
+-- Chỉ mục cho bảng `chitietthongbao`
 --
 ALTER TABLE `chitietthongbao`
   ADD PRIMARY KEY (`matb`,`manhom`),
   ADD KEY `FK_CHITIETTHONGBAO_NHOM` (`manhom`);
 
 --
--- Indexes for table `chuong`
+-- Chỉ mục cho bảng `chuong`
 --
 ALTER TABLE `chuong`
   ADD PRIMARY KEY (`machuong`),
   ADD KEY `FK_CHUONG_MONHOC` (`mamonhoc`);
 
 --
--- Indexes for table `danhmucchucnang`
+-- Chỉ mục cho bảng `danhmucchucnang`
 --
 ALTER TABLE `danhmucchucnang`
   ADD PRIMARY KEY (`chucnang`) USING BTREE;
 
 --
--- Indexes for table `dethi`
+-- Chỉ mục cho bảng `dethi`
 --
 ALTER TABLE `dethi`
   ADD PRIMARY KEY (`made`);
 
 --
--- Indexes for table `dethitudong`
+-- Chỉ mục cho bảng `dethitudong`
 --
 ALTER TABLE `dethitudong`
   ADD PRIMARY KEY (`made`,`machuong`),
   ADD KEY `FK_DETHITUDONG_CHUONG` (`machuong`);
 
 --
--- Indexes for table `giaodethi`
+-- Chỉ mục cho bảng `giaodethi`
 --
 ALTER TABLE `giaodethi`
   ADD PRIMARY KEY (`made`,`manhom`),
   ADD KEY `FK_GIAODETHI_NHOM` (`manhom`);
 
 --
--- Indexes for table `ketqua`
+-- Chỉ mục cho bảng `ketqua`
 --
 ALTER TABLE `ketqua`
   ADD PRIMARY KEY (`made`,`manguoidung`),
@@ -6757,20 +6851,20 @@ ALTER TABLE `ketqua`
   ADD KEY `FK_KETQUA_NGUOIDUNG` (`manguoidung`);
 
 --
--- Indexes for table `monhoc`
+-- Chỉ mục cho bảng `monhoc`
 --
 ALTER TABLE `monhoc`
   ADD PRIMARY KEY (`mamonhoc`);
 
 --
--- Indexes for table `nguoidung`
+-- Chỉ mục cho bảng `nguoidung`
 --
 ALTER TABLE `nguoidung`
   ADD PRIMARY KEY (`id`),
   ADD KEY `FK_NGUOIDUNG_NHOMQUYEN` (`manhomquyen`);
 
 --
--- Indexes for table `nhom`
+-- Chỉ mục cho bảng `nhom`
 --
 ALTER TABLE `nhom`
   ADD PRIMARY KEY (`manhom`),
@@ -6778,109 +6872,109 @@ ALTER TABLE `nhom`
   ADD KEY `FK_nhom_monhoc` (`mamonhoc`);
 
 --
--- Indexes for table `nhomquyen`
+-- Chỉ mục cho bảng `nhomquyen`
 --
 ALTER TABLE `nhomquyen`
   ADD PRIMARY KEY (`manhomquyen`);
 
 --
--- Indexes for table `phancong`
+-- Chỉ mục cho bảng `phancong`
 --
 ALTER TABLE `phancong`
   ADD PRIMARY KEY (`mamonhoc`,`manguoidung`),
   ADD KEY `FK_giangday_nguoidung` (`manguoidung`);
 
 --
--- Indexes for table `thongbao`
+-- Chỉ mục cho bảng `thongbao`
 --
 ALTER TABLE `thongbao`
   ADD PRIMARY KEY (`matb`),
   ADD KEY `FK_THONGBAO_NGUOIDUNG` (`nguoitao`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT cho các bảng đã đổ
 --
 
 --
--- AUTO_INCREMENT for table `cauhoi`
+-- AUTO_INCREMENT cho bảng `cauhoi`
 --
 ALTER TABLE `cauhoi`
   MODIFY `macauhoi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=538;
 
 --
--- AUTO_INCREMENT for table `cautraloi`
+-- AUTO_INCREMENT cho bảng `cautraloi`
 --
 ALTER TABLE `cautraloi`
   MODIFY `macautl` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2147;
 
 --
--- AUTO_INCREMENT for table `chuong`
+-- AUTO_INCREMENT cho bảng `chuong`
 --
 ALTER TABLE `chuong`
   MODIFY `machuong` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
--- AUTO_INCREMENT for table `dethi`
+-- AUTO_INCREMENT cho bảng `dethi`
 --
 ALTER TABLE `dethi`
   MODIFY `made` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
--- AUTO_INCREMENT for table `ketqua`
+-- AUTO_INCREMENT cho bảng `ketqua`
 --
 ALTER TABLE `ketqua`
   MODIFY `makq` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=153;
 
 --
--- AUTO_INCREMENT for table `monhoc`
+-- AUTO_INCREMENT cho bảng `monhoc`
 --
 ALTER TABLE `monhoc`
   MODIFY `mamonhoc` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=841465;
 
 --
--- AUTO_INCREMENT for table `nhom`
+-- AUTO_INCREMENT cho bảng `nhom`
 --
 ALTER TABLE `nhom`
   MODIFY `manhom` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
--- AUTO_INCREMENT for table `nhomquyen`
+-- AUTO_INCREMENT cho bảng `nhomquyen`
 --
 ALTER TABLE `nhomquyen`
   MODIFY `manhomquyen` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
--- AUTO_INCREMENT for table `thongbao`
+-- AUTO_INCREMENT cho bảng `thongbao`
 --
 ALTER TABLE `thongbao`
   MODIFY `matb` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
--- Constraints for dumped tables
+-- Các ràng buộc cho các bảng đã đổ
 --
 
 --
--- Constraints for table `cauhoi`
+-- Các ràng buộc cho bảng `cauhoi`
 --
 ALTER TABLE `cauhoi`
   ADD CONSTRAINT `FK_CAUHOI_CHUONG` FOREIGN KEY (`machuong`) REFERENCES `chuong` (`machuong`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `FK_CAUHOI_MONHOC` FOREIGN KEY (`mamonhoc`) REFERENCES `monhoc` (`mamonhoc`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `cautraloi`
+-- Các ràng buộc cho bảng `cautraloi`
 --
 ALTER TABLE `cautraloi`
-  ADD CONSTRAINT `FK_CAUTRALOI_CAUHOI` FOREIGN KEY (`macauhoi`) REFERENCES `cauhoi` (`macauhoi`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `FK_CAUTRALOI_CAUHOI` FOREIGN KEY (`macauhoi`) REFERENCES `cauhoi` (`macauhoi`) ON DELETE CASCADE;
 
 --
--- Constraints for table `chitietdethi`
+-- Các ràng buộc cho bảng `chitietdethi`
 --
 ALTER TABLE `chitietdethi`
   ADD CONSTRAINT `FK_CHITIETDETHI_CAUHOI` FOREIGN KEY (`macauhoi`) REFERENCES `cauhoi` (`macauhoi`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `FK_CHITIETDETHI_DETHI` FOREIGN KEY (`made`) REFERENCES `dethi` (`made`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `chitietketqua`
+-- Các ràng buộc cho bảng `chitietketqua`
 --
 ALTER TABLE `chitietketqua`
   ADD CONSTRAINT `FK_CHITIETKETQUA_CAUHOI` FOREIGN KEY (`macauhoi`) REFERENCES `cauhoi` (`macauhoi`) ON DELETE NO ACTION ON UPDATE NO ACTION,
@@ -6888,71 +6982,71 @@ ALTER TABLE `chitietketqua`
   ADD CONSTRAINT `FK_CHITIETKETQUA_KETQUA` FOREIGN KEY (`makq`) REFERENCES `ketqua` (`makq`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `chitietnhom`
+-- Các ràng buộc cho bảng `chitietnhom`
 --
 ALTER TABLE `chitietnhom`
   ADD CONSTRAINT `FK_CHITIETNHOM_NHOM` FOREIGN KEY (`manhom`) REFERENCES `nhom` (`manhom`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `FK_chitietnhom_nguoidung` FOREIGN KEY (`manguoidung`) REFERENCES `nguoidung` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Constraints for table `chitietquyen`
+-- Các ràng buộc cho bảng `chitietquyen`
 --
 ALTER TABLE `chitietquyen`
   ADD CONSTRAINT `FK_CHITIETQUYEN_NHOMQUYEN` FOREIGN KEY (`manhomquyen`) REFERENCES `nhomquyen` (`manhomquyen`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `chitietquyen_ibfk_1` FOREIGN KEY (`chucnang`) REFERENCES `danhmucchucnang` (`chucnang`);
 
 --
--- Constraints for table `chitietthongbao`
+-- Các ràng buộc cho bảng `chitietthongbao`
 --
 ALTER TABLE `chitietthongbao`
   ADD CONSTRAINT `FK_CHITIETTHONGBAO_NHOM` FOREIGN KEY (`manhom`) REFERENCES `nhom` (`manhom`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `FK_CHITIETTHONGBAO_THONGBAO` FOREIGN KEY (`matb`) REFERENCES `thongbao` (`matb`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `chuong`
+-- Các ràng buộc cho bảng `chuong`
 --
 ALTER TABLE `chuong`
   ADD CONSTRAINT `FK_CHUONG_MONHOC` FOREIGN KEY (`mamonhoc`) REFERENCES `monhoc` (`mamonhoc`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `dethitudong`
+-- Các ràng buộc cho bảng `dethitudong`
 --
 ALTER TABLE `dethitudong`
   ADD CONSTRAINT `FK_DETHITUDONG_CHUONG` FOREIGN KEY (`machuong`) REFERENCES `chuong` (`machuong`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `FK_DETHITUDONG_DETHI` FOREIGN KEY (`made`) REFERENCES `dethi` (`made`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `giaodethi`
+-- Các ràng buộc cho bảng `giaodethi`
 --
 ALTER TABLE `giaodethi`
   ADD CONSTRAINT `FK_GIAODETHI_DETHI` FOREIGN KEY (`made`) REFERENCES `dethi` (`made`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `FK_GIAODETHI_NHOM` FOREIGN KEY (`manhom`) REFERENCES `nhom` (`manhom`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `ketqua`
+-- Các ràng buộc cho bảng `ketqua`
 --
 ALTER TABLE `ketqua`
   ADD CONSTRAINT `FK_KETQUA_DETHI` FOREIGN KEY (`made`) REFERENCES `dethi` (`made`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `FK_ketqua_nguoidung` FOREIGN KEY (`manguoidung`) REFERENCES `nguoidung` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `nguoidung`
+-- Các ràng buộc cho bảng `nguoidung`
 --
 ALTER TABLE `nguoidung`
   ADD CONSTRAINT `FK_NGUOIDUNG_NHOMQUYEN` FOREIGN KEY (`manhomquyen`) REFERENCES `nhomquyen` (`manhomquyen`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `nhom`
+-- Các ràng buộc cho bảng `nhom`
 --
 ALTER TABLE `nhom`
   ADD CONSTRAINT `FK_nhom_monhoc` FOREIGN KEY (`mamonhoc`) REFERENCES `monhoc` (`mamonhoc`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `phancong`
+-- Các ràng buộc cho bảng `phancong`
 --
 ALTER TABLE `phancong`
   ADD CONSTRAINT `FK_giangday_monhoc` FOREIGN KEY (`mamonhoc`) REFERENCES `monhoc` (`mamonhoc`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `FK_phancong_nguoidung` FOREIGN KEY (`manguoidung`) REFERENCES `nguoidung` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `FK_phancong_nguoidung` FOREIGN KEY (`manguoidung`) REFERENCES `nguoidung` (`id`) ON DELETE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
