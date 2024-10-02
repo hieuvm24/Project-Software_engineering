@@ -1,4 +1,4 @@
-<div class="bg-image" style="background-image: url('./public/media/photos/photo22@2x.jpg');">
+<div class="bg-image" style="background-image: url('./public/media/photos/pnk.jpg');">
     <div class="row g-0 bg-primary-op">
         <div class="hero-static col-md-6 d-flex align-items-center bg-body-extra-light">
             <div class="p-3 w-100">
@@ -33,7 +33,8 @@
                                         href="./auth/recover">
                                         <i class="fa fa-exclamation-triangle opacity-50 me-1"></i> Quên mật khẩu
                                     </a>
-                                    <a class="btn btn-sm btn-alt-secondary d-block d-lg-inline-block mb-1" href="#">
+                                    <a class="btn btn-sm btn-alt-secondary d-block d-lg-inline-block mb-1" 
+                                    href="./auth/signup">>
                                         <i class="fa fa-plus opacity-50 me-1"></i> New Account
                                     </a>
                                 </p>
