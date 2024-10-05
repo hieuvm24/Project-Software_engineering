@@ -17,4 +17,4 @@ Công nghệ phát triển web: Chúng ta có thể sử dụng HTML, CSS, JavaS
 - Hạ tầng lưu trữ và phân phối nội dung: GitHub
   
 # Kết luận 
-Trang web cung cấp bài tập trắc nghiệm toán và tiếng Anh cho học sinh tiểu học là một dự án tiềm năng, đáp ứng nhu cầu ngày càng tăng về giáo dục trực tuyến. Bằng cách cung cấp các bài tập trắc nghiệm được thiết kế chuyên biệt và sử dụng công nghệ hiện đại, trang web sẽ hỗ trợ hiệu quả cho việc học tập của các em học sinh, đồng thời giúp phụ huynh và giáo viên dễ dàng theo dõi tiến trình học tập của con em mình.
+Trang web cung cấp bài tập trắc nghiệm toán cho học sinh tiểu học là một dự án tiềm năng, đáp ứng nhu cầu ngày càng tăng về giáo dục trực tuyến. Bằng cách cung cấp các bài tập trắc nghiệm được thiết kế chuyên biệt và sử dụng công nghệ hiện đại, trang web sẽ hỗ trợ hiệu quả cho việc học tập của các em học sinh, đồng thời giúp phụ huynh và giáo viên dễ dàng theo dõi tiến trình học tập của con em mình.
