@@ -5,7 +5,7 @@
                 <div class="block-content block-content-full px-lg-5 px-xl-6 py-4 py-md-5 py-lg-6 bg-body-extra-light">
                     <div class="mb-2 text-center">
                         <a class="link-fx fw-bold fs-1" href="index.html">
-                            <span class="text-dark">OnTest</span><span class="text-primary">VN</span>
+                            <span class="text-dark">PNK</span><span class="text-primary">TEST</span>
                         </a>
                         <p class="text-uppercase fw-bold fs-sm text-muted">Tạo tài khoản mới</p>
                     </div>
@@ -82,24 +82,8 @@
                         </div>
                     </div>
                     <div class="block-content">
-                        <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad
-                            feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante
-                            convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat
-                            accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies
-                            sed, fames aliquet consectetur consequat nostra molestie neque nullam
-                            scelerisque neque commodo turpis quisque etiam egestas vulputate massa,
-                            curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit
-                            gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos
-                            nibh orci.</p>
-                        <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad
-                            feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante
-                            convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat
-                            accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies
-                            sed, fames aliquet consectetur consequat nostra molestie neque nullam
-                            scelerisque neque commodo turpis quisque etiam egestas vulputate massa,
-                            curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit
-                            gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos
-                            nibh orci.</p>
+                        <p>Test số 1 pnk</p>
+                        <p>UY TÍN - AN TOÀN - HIỆU QUẢ</p>
                     </div>
                     <div class="block-content block-content-full text-end bg-body">
                         <button type="button" class="btn btn-sm btn-primary" data-bs-dismiss="modal">Done</button>
