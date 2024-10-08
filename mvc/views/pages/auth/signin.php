@@ -34,7 +34,7 @@
                                         <i class="fa fa-exclamation-triangle opacity-50 me-1"></i> Quên mật khẩu
                                     </a>
                                     <a class="btn btn-sm btn-alt-secondary d-block d-lg-inline-block mb-1" 
-                                    href="./auth/signup">>
+                                    href="./auth/signup">
                                         <i class="fa fa-plus opacity-50 me-1"></i> New Account
                                     </a>
                                 </p>
