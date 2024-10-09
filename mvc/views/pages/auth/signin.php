@@ -3,7 +3,7 @@
         <div class="hero-static col-md-6 d-flex align-items-center bg-body-extra-light">
             <div class="p-3 w-100">
                 <div class="mb-3 text-center">
-                    <a class="link-fx fw-bold fs-1" href="/">
+                    <a class="link-fx fw-bold fs-1" href="./">
                         <span class="text-dark">PNK </span><span class="text-primary">Test</span>
                     </a>
                     <p class="text-uppercase fw-bold fs-sm text-muted">Đăng nhập</p>

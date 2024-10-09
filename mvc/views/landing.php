@@ -351,25 +351,6 @@
                         data-slides-to-show="1" data-autoplay="false">
                         <div class="py-3">
                             <blockquote class="blockquote">
-                                <p class="px-7 fs-5 text-justify mb-5">Pnk Test là một hệ thống tạo đề thi trắc nghiệm rất tiện
-                                    lợi và hiệu
-                                    quả cho giáo
-                                    viên và học sinh. Giao diện trực quan và dễ sử dụng, tính năng tùy chỉnh linh hoạt,
-                                    kết quả đánh giá chi tiết và tính năng lưu lại và tiếp tục làm bài kiểm tra là những
-                                    điểm nổi bật của hệ thống này. Ngoài ra, hệ thống còn đảm bảo
-                                    an toàn và bảo mật thông tin của người dùng. Tôi rất hài lòng với trải nghiệm của
-                                    mình khi sử dụng hệ thống này.</p>
-                            </blockquote>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <img class="img-avatar me-4" src="./public/media/photos/avatar0.jpg" alt="">
-                                <div class="d-flex flex-column align-items-start">
-                                    <div class="mt-2 fw-semibold fs-4">Nguyễn Thanh Sang</div>
-                                    <div class="fs-sm text-muted fs-5">Giảng viên</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="py-3">
-                            <blockquote class="blockquote">
                                 <p class="px-7 fs-5 text-justify mb-5">Sử dụng nhiều công cụ trong việc dạy học, nhưng PNK Test là công cụ mình yêu thích
                                     nhất. Việc thiết kế bài kiểm tra và quản lí, đánh giá kết quả của học sinh chưa bao
                                     giờ đơn giản và hiệu quả đến vậy. Đội ngũ luôn lắng nghe góp ý để đem lại trải
