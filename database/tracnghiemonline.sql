@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th10 10, 2024 lúc 06:20 PM
+-- Thời gian đã tạo: Th10 10, 2024 lúc 07:37 PM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -408,6 +408,14 @@ CREATE TABLE `chitietnhom` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Đang đổ dữ liệu cho bảng `chitietnhom`
+--
+
+INSERT INTO `chitietnhom` (`manhom`, `manguoidung`, `hienthi`) VALUES
+(3, '0000000001', 1),
+(3, '0000000002', 1);
+
+--
 -- Bẫy `chitietnhom`
 --
 DELIMITER $$
@@ -666,6 +674,13 @@ CREATE TABLE `ketqua` (
   `solanchuyentab` int(11) DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Đang đổ dữ liệu cho bảng `ketqua`
+--
+
+INSERT INTO `ketqua` (`makq`, `made`, `manguoidung`, `diemthi`, `thoigianvaothi`, `thoigianlambai`, `socaudung`, `solanchuyentab`) VALUES
+(180, 29, '0000000001', NULL, '2024-10-10 23:47:12', NULL, NULL, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -686,7 +701,7 @@ CREATE TABLE `monhoc` (
 --
 
 INSERT INTO `monhoc` (`mamonhoc`, `tenmonhoc`, `sotinchi`, `sotietlythuyet`, `sotietthuchanh`, `trangthai`) VALUES
-(123456, 'Tiếng Anh', 4, 12, 21, 1),
+(123456, 'Tiếng Anh', 4, 12, 21, 0),
 (841021, 'Toán 1', 0, 30, 0, 1),
 (841048, 'Toán 2', 0, 45, 0, 1),
 (841058, 'Toán 3', 0, 30, 0, 1),
@@ -722,10 +737,18 @@ CREATE TABLE `nguoidung` (
 --
 
 INSERT INTO `nguoidung` (`email`, `id`, `googleid`, `hoten`, `gioitinh`, `ngaysinh`, `avatar`, `ngaythamgia`, `matkhau`, `trangthai`, `sodienthoai`, `token`, `otp`, `manhomquyen`) VALUES
+('0000000001@gmail.com', '0000000001', NULL, 'Lê Đình Anh', 1, '2024-10-10', NULL, '2024-10-10', '$2y$10$26AFOu3Nv69dg6CEKwImdeE8F3j2z2MEMnKrT/iLCx/jycVIDOxsW', 1, NULL, '1728578813$2y$10$5ugbTK9lnUnkijnUiua58erojAiGrpRrvjIgh1aMibO.y68G4dUdC', NULL, 11),
+('0000000002@gmail.com', '0000000002', NULL, 'Lê Đình Em', 1, '2024-10-10', NULL, '2024-10-10', '$2y$10$Ty19rNfld9J8/MzIAWJB1OEEE3P4ZlhnDobyn/WZIaPUjYCXzgEVu', 1, NULL, NULL, NULL, 11),
+('0000000003@Gmail.com', '0000000003', NULL, 'Lê Đình Chị', 1, '2024-10-10', NULL, '2024-10-10', '$2y$10$2p3HcMoWjp7fTwexIOuPju6WwvA.DHIpy4OSG9xZdhvCOY.ap8gVy', 1, NULL, NULL, NULL, 11),
+('0000000004@gmail.com', '0000000004', NULL, 'Lê Đình Ông', 1, '2024-10-10', NULL, '2024-10-10', '$2y$10$.UhdXwsJw62Hjxx2L35Rxue49xWPPVIM3CC1d/LiMD1lBXtNBgoYW', 1, NULL, NULL, NULL, 11),
+('0000000005@Gmail.com', '0000000005', NULL, 'Lê Đình Bà', 0, '2024-10-10', NULL, '2024-10-10', '$2y$10$.isVH9Sod.pGgbH8Fv0j8eVMiq8lEzRRXRrJXDjO61lK4DK8uLex.', 1, NULL, NULL, NULL, 11),
+('0000000006@Gmail.com', '0000000006', NULL, 'Lê Đình Cậu', 1, '2024-10-10', NULL, '2024-10-10', '$2y$10$jT1PQPdp9kju9uALHWDOvulwkpyurGGwgqja7IfYSBD1lsZ2lh86K', 1, NULL, NULL, NULL, 11),
+('1111111111@Gmail.com', '1111111111', NULL, 'Trịnh Dương Trung Hiếu', 1, '2024-10-10', NULL, '2024-10-10', '$2y$10$4c2AagJitC1JhmHmMhsGWOr3X16QEf8YT8dXg8Yfk5jWEeSXuA.am', 1, NULL, NULL, NULL, 11),
 ('VuMinhHieu@gmail.com', '22010080', NULL, 'Vũ Minh Hiếu', 1, '2004-09-01', NULL, '2024-10-10', '$2y$10$SGhrdixtuXoQ8OhCuJesve.mGuv5VmBYXWqIEhWPJCnd7jSuGqTeS', 1, 1234567898, '1728571758$2y$10$UfnyhN/RMCLgahSRrJPSqehvP4jG6xAnlFjjNJcmNfniFG7d1HvOO', NULL, 1),
 ('22010101@st.phenikaa-uni.edu.vn', '22010101', NULL, 'Nguyễn Tấn Dũng', 1, '2004-09-01', NULL, '2024-10-10', '$2y$10$pmRepOISjV.GLhQYGR91J.6UjWiptOunCi4PeE7g5XYJ6GP4mXih.', 1, NULL, NULL, NULL, 1),
-('22010106@st.phenikaa-uni.edu.vn', '22010106', '100101229550800922586', 'Dương Mạnh Hùng', 1, '2004-12-01', '', '2024-10-02', '$2y$10$wAkCgYHvLE6b9ljL4V8Swe23SKZlyB8Lj2QWVWMoXtPyVN0.XmR3u', 1, NULL, '1728572220$2y$10$PnQkCqRm6cFbh6EtBU8mouDtupKllztRIeR2IUm5f.UmgSoAh6pr6', NULL, 1),
-('22014072@st.phenikaa-uni.edu.vn', '22014072', NULL, 'Trần Trung Hiếu', 1, '2004-09-01', NULL, '2024-10-10', '$2y$10$k0Ni2LtgpVLZKBvdjzZMBOWSsQnM43Md4Fw7/KxMz9NXFXGR7y0rO', 1, NULL, NULL, NULL, 1);
+('22010106@st.phenikaa-uni.edu.vn', '22010106', '100101229550800922586', 'Dương Mạnh Hùng', 1, '2004-12-01', '', '2024-10-02', '$2y$10$wAkCgYHvLE6b9ljL4V8Swe23SKZlyB8Lj2QWVWMoXtPyVN0.XmR3u', 1, NULL, '1728581771$2y$10$kFdxcAlQDc2BpeVkmwq23O1oM3fr/YPOU4mWFKVEGatNhA4iCwOla', NULL, 1),
+('22014072@st.phenikaa-uni.edu.vn', '22014072', NULL, 'Trần Trung Hiếu', 1, '2004-09-01', NULL, '2024-10-10', '$2y$10$k0Ni2LtgpVLZKBvdjzZMBOWSsQnM43Md4Fw7/KxMz9NXFXGR7y0rO', 1, NULL, '1728578417$2y$10$UoG337JobdJKWeiCjOQqD.El6fYNzGfGKtJyk/l.BpwBGToVSIBom', NULL, 1),
+('5000000000@gmail.com', '5000000000', NULL, 'Trịnh Trần Phương Tuấn', 1, '2024-10-10', NULL, '2024-10-10', '$2y$10$oq0fUNeDnHxW.hN/jzXR.uPNZBKXDr8bPp1Iy8bBbZ6NPfRMFteL6', 1, NULL, NULL, NULL, 11);
 
 --
 -- Bẫy `nguoidung`
@@ -761,7 +784,7 @@ CREATE TABLE `nhom` (
 
 INSERT INTO `nhom` (`manhom`, `tennhom`, `mamoi`, `siso`, `ghichu`, `namhoc`, `hocky`, `trangthai`, `hienthi`, `giangvien`, `mamonhoc`) VALUES
 (2, 'Nhóm Lớp 1', '82ec6cb', 0, '', 2024, 1, 1, 1, '3119410078', 841021),
-(3, 'Nhóm Lớp 2', 'de7d132', 0, '', 2024, 1, 1, 1, '22010106', 841048),
+(3, 'Nhóm Lớp 2', 'de7d132', 2, '', 2024, 1, 1, 1, '22010106', 841048),
 (4, 'Nhóm lớp 3', '1b63ae2', 0, '', 2024, 1, 1, 1, '22010106', 841058),
 (5, 'Nhóm lớp 4', '49091ff', 0, '', 2024, 1, 1, 1, '22010106', 841059),
 (6, 'Nhóm lớp 5', 'bf6fcff', 0, '', 2024, 2, 1, 1, '22010106', 841107),
@@ -1010,7 +1033,7 @@ ALTER TABLE `dethi`
 -- AUTO_INCREMENT cho bảng `ketqua`
 --
 ALTER TABLE `ketqua`
-  MODIFY `makq` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=180;
+  MODIFY `makq` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=186;
 
 --
 -- AUTO_INCREMENT cho bảng `monhoc`
