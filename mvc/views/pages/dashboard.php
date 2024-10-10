@@ -5,7 +5,11 @@
             <img class="img-fluid" src="./public/media/photos/pnk.jpg" alt="">
         </div>
         <div>
-            <img class="img-fluid" src="./public/media/photos/pnk1.jpg" alt="">
+            <img class="img-fluid" src="./public/media/photos/pnk10.jpg" alt="">
+        </div>
+        
+        <div>
+            <img class="img-fluid" src="./public/media/photos/dmh.jpg" alt="">
         </div>
     </div>
 </div>
