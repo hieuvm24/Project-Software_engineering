@@ -57,7 +57,7 @@
                         <table class="table table-vcenter">
                             <thead>
                                 <tr class="table-col-title">
-                                    <th class="text-center col-sort" data-sort-column="manguoidung" data-sort-order="default">MSSV</th>
+                                    <th class="text-center col-sort" data-sort-column="manguoidung" data-sort-order="default">ID</th>
                                     <th class="col-sort" data-sort-column="hoten" data-sort-order="default">Họ tên</th>
                                     <th class="text-center col-sort" data-sort-column="diemthi" data-sort-order="default">Điểm</th>
                                     <th class="text-center col-sort" data-sort-column="thoigianvaothi" data-sort-order="default">Thời gian vào thi</th>
